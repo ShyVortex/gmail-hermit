@@ -1,0 +1,12 @@
+[versions]
+compileSdk = "34"
+targetSdk = "34"
+minSdk = "28"
+
+kotlin = "2.0.20"
+gradle-plugin = "8.7.0"
+
+[libraries]
+# buildscript.dependencies
+android-gradle-plugin = { module = "com.android.tools.build:gradle", version.ref = "gradle-plugin" }
+kotlin-plugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
