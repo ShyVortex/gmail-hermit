@@ -9,11 +9,11 @@ android {
   defaultConfig {
     //-------------------------------------------------------------------------
     // CHANGEME: Use a unique applicationId for your app.
-    applicationId = "org.example.liteapp"
+    applicationId = "org.hermit.gmail"
     // CHANGEME: Select a URL for Hermit to open.
-    resValue("string", "start_url", "https://example.org/")
+    resValue("string", "start_url", "https://mail.google.com/")
     // CHANGEME: Select a name for the generated APK.
-    resValue("string", "app_name", "Example")
+    resValue("string", "app_name", "Gmail")
     //-------------------------------------------------------------------------
 
     // No changes required anywhere else in the source.
