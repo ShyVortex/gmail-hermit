@@ -11,7 +11,7 @@ android {
     // CHANGEME: Use a unique applicationId for your app.
     applicationId = "org.hermit.gmail"
     // CHANGEME: Select a URL for Hermit to open.
-    resValue("string", "start_url", "https://mail.google.com/")
+    resValue("string", "start_url", "https://mail.google.com/?ui=html")
     // CHANGEME: Select a name for the generated APK.
     resValue("string", "app_name", "Gmail")
     //-------------------------------------------------------------------------
